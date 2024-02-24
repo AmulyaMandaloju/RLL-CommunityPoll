@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-24T10:36:09 IST" name="Default suite" finished-at="2024-02-24T10:36:48 IST" duration-ms="39530">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@536f2a7e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-02-24T10:36:09 IST" name="Default test" finished-at="2024-02-24T10:36:48 IST" duration-ms="39530">
+      <class name="runner.TestNGRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestNGRunner@536f2a7e]" started-at="2024-02-24T10:36:09 IST" name="setUpClass" finished-at="2024-02-24T10:36:10 IST" duration-ms="1802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@94aeba1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@536f2a7e]" started-at="2024-02-24T10:36:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-24T10:36:20 IST" duration-ms="9248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User to poll without selecting anything"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To test DemoWebShop Community Poll"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@536f2a7e]" started-at="2024-02-24T10:36:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-24T10:36:27 IST" duration-ms="7574" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User to poll without Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To test DemoWebShop Community Poll"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Only registered users can vote.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Only registered users can vote.
+at junit.framework.Assert.fail(Assert.java:57)
+at junit.framework.Assert.assertTrue(Assert.java:22)
+at junit.framework.Assert.assertFalse(Assert.java:39)
+at steps.CommunitypollStepdef.click_on_vote_button(CommunitypollStepdef.java:69)
+at ✽.Click on vote button(file:///D:/Java%20eclipse%20workspace/CommunityPoll/src/test/java/feature/com_poll.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@536f2a7e]" started-at="2024-02-24T10:36:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-24T10:36:36 IST" duration-ms="8354" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User to poll with login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To test DemoWebShop Community Poll"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[7504 vote(s)...]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: 7504 vote(s)...
+at junit.framework.Assert.fail(Assert.java:57)
+at junit.framework.Assert.assertTrue(Assert.java:22)
+at junit.framework.Assert.assertFalse(Assert.java:39)
+at steps.CommunitypollStepdef.user_select_one_option_from_poll_and_vote(CommunitypollStepdef.java:93)
+at ✽.User select one option from poll and vote(file:///D:/Java%20eclipse%20workspace/CommunityPoll/src/test/java/feature/com_poll.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestNGRunner@536f2a7e]" started-at="2024-02-24T10:36:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-24T10:36:44 IST" duration-ms="8355" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User to poll with login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To test DemoWebShop Community Poll"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[7504 vote(s)...]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: 7504 vote(s)...
+at junit.framework.Assert.fail(Assert.java:57)
+at junit.framework.Assert.assertTrue(Assert.java:22)
+at junit.framework.Assert.assertFalse(Assert.java:39)
+at steps.CommunitypollStepdef.user_select_one_option_from_poll_and_vote(CommunitypollStepdef.java:93)
+at ✽.User select one option from poll and vote(file:///D:/Java%20eclipse%20workspace/CommunityPoll/src/test/java/feature/com_poll.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestNGRunner@536f2a7e]" started-at="2024-02-24T10:36:44 IST" name="tearDownClass" finished-at="2024-02-24T10:36:48 IST" duration-ms="4094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestNGRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
