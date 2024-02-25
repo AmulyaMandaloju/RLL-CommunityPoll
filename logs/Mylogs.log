@@ -90,3 +90,14 @@
 [INFO ] 2024-02-25 14:05:07.516 [main] CommunitypollStepdef - URL
 [INFO ] 2024-02-25 14:05:12.924 [main] CommunitypollStepdef - Users select one option from poll
 [ERROR] 2024-02-25 14:05:13.412 [main] CommunitypollStepdef - Scenario failed. Taking a screenshot or performing cleanup if needed.
+[INFO ] 2024-02-25 14:21:30.797 [main] CommunitypollStepdef - URL
+[INFO ] 2024-02-25 14:21:33.920 [main] CommunitypollStepdef - Users direct click on vote button
+[INFO ] 2024-02-25 14:21:36.551 [main] CommunitypollStepdef - URL
+[INFO ] 2024-02-25 14:21:40.032 [main] CommunitypollStepdef - Users selects the poll  
+[INFO ] 2024-02-25 14:21:40.283 [main] CommunitypollStepdef - User Click on the vote button
+[ERROR] 2024-02-25 14:21:41.750 [main] CommunitypollStepdef - Scenario failed. Taking a screenshot or performing cleanup if needed.
+[INFO ] 2024-02-25 14:21:44.079 [main] CommunitypollStepdef - URL
+[INFO ] 2024-02-25 14:21:49.913 [main] CommunitypollStepdef - Users select one option from poll
+[INFO ] 2024-02-25 14:21:52.446 [main] CommunitypollStepdef - URL
+[INFO ] 2024-02-25 14:21:57.725 [main] CommunitypollStepdef - Users select one option from poll
+[ERROR] 2024-02-25 14:21:58.454 [main] CommunitypollStepdef - Scenario failed. Taking a screenshot or performing cleanup if needed.

@@ -16,5 +16,5 @@ Feature: To test DemoWebShop Community Poll
 
     Examples: 
       | email                 | password |
-      | mikkyjoy333@gmail.com |   123456 |
+      | vedhjoy57@gmail.com |   123456 |
       | tomjoy11@gmail.com    |   123456 |
